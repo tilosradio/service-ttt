@@ -32,7 +32,7 @@ public class TTTService {
             if (!id.matches("\\w+")) {
                 throw new IllegalArgumentException("Invalid id");
             }
-            URL url = new URL(couchDBurl + "/ttt-business/" + id + "/" + id + ".jpg");
+            URL url = new URL(couchDBurl + "/ttt-business/" + id + "/photo.jpg");
             InputStream inputStream = url.openStream();
             byte[] result = IOUtils.toByteArray(inputStream);
             inputStream.close();
