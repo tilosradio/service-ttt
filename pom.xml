@@ -79,5 +79,10 @@
         </plugins>
 
     </build>
-
+    <repositories>
+        <repository>
+            <id>anzix</id>
+            <url>https://anzix.net/maven</url>
+        </repository>
+    </repositories>
 </project>
