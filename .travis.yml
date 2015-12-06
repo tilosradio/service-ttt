@@ -11,5 +11,6 @@ deploy:
   bucket: tilosdeploy
   acl: public_read
   local_dir: target
+  skip_cleanup: true
   on:
     repo: tilosradio/service-ttt
