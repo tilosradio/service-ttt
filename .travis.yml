@@ -12,5 +12,6 @@ deploy:
   secret_access_key: $S3_SECRET
   bucket: tilosdeploy
   acl: public_read
+  local_dir: target
   on:
     repo: tilosradio/service-ttt
