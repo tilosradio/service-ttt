@@ -46,6 +46,10 @@
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
             <groupId>hu.tilos.radio</groupId>
             <artifactId>service-api</artifactId>
             <version>1.1-SNAPSHOT</version>
