@@ -5,7 +5,7 @@ jdk:
 - oraclejdk8
 after_success:
 - mkdir -p target/upload
-- cp target/*.jar target/upload
+- cp target/*.jar target/upload/service-ttt.jar
 deploy:
   provider: s3
   access_key_id: $S3_KEY
