@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 @RestController
 @ComponentScan
-//@EnableEurekaClient
+@EnableEurekaClient
 public class TTTStarter {
 
     @Autowired

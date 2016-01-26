@@ -1,6 +1,3 @@
 spring:
    application:
       name: "ttt"
-port:
-   ttt:
-      offset: 150
